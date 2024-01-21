@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Асосӣ"
+        android:id="@+id/home_icon"
+        android:icon="@drawable/home_selector_icon"
+        />
+    <item
+        android:title="Омӯзиш"
+        android:id="@+id/education_icon"
+        android:icon="@drawable/book_icon_selector"
+        />
+    <item
+        android:title="Молия"
+        android:id="@+id/finance_icon"
+        android:icon="@drawable/cash_icon_selector"
+        />
+    <item
+        android:title="Ҷамъият"
+        android:id="@+id/chat_icon"
+        android:icon="@drawable/chat_icon_selector"
+        />
+    <item
+        android:title="Машғулият"
+        android:id="@+id/news_icon"
+        android:icon="@drawable/news_icon_selector"
+        />
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat">
+
+    <TextView
+        android:id="@+id/shabaka_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="95dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Шабака"
+        android:textColor="@color/textBlack"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/shabaka_podtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="95dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Сӯҳбат, алоқа ва чат"
+        android:textColor="@color/textBlack"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/invite_button_chat"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:drawableTop="@drawable/baseline_person_add_alt_1_24"
+        android:background="@drawable/circle_button"
+        />
+
+    <RelativeLayout
+        android:id="@+id/first_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/krug_gray">
+
+        <ListView
+            android:id="@+id/chat_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="15dp">
+        </ListView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
